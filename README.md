@@ -11,16 +11,12 @@ It also includes some workspace settings and recommended extensions for Visual S
 
 ## Getting Started
 
-First, run the development server:
+First, create a new project based on this template:
 
 ```bash
-npm run dev
+npx create-next-app -e https://github.com/thuyencode/nextjs-step-boilerplate
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun create github.com/thuyencode/nextjs-step-boilerplate
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
