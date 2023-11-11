@@ -9,9 +9,7 @@ export const metadata: Metadata = {
   title: 'Next.js STEP Boilerplate Template',
   description:
     'The personal Next.js StandardJS + Tailwind CSS + ESLint + Prettier Boilerplate Template',
-  metadataBase: new URL(
-    'https://github.com/thuyencode/nextjs-step-boilerplate'
-  ),
+  metadataBase: new URL('https://nextjs-step-boilerplate.vercel.app'),
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
