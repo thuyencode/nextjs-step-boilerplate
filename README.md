@@ -16,8 +16,10 @@ First, create a new project based on this template:
 ```bash
 npx create-next-app -e https://github.com/thuyencode/nextjs-step-boilerplate
 # or
-bun create github.com/thuyencode/nextjs-step-boilerplate
+bun create github.com/thuyencode/nextjs-step-boilerplate [<destination>]
 ```
+
+[More detail info for Bun.](https://bun.sh/docs/cli/bun-create#from-github)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
