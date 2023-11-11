@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js **STEP** Boilderplate
+
+It's my personal Next.js template and **STEP** stands for:
+
+- [**StandardJS**](https://standardjs.com/rules): The standard JavaScript rules
+- [**Tailwind CSS**](https://tailwindcss.com): The popular utility-first CSS framework
+- [**ESLint**](https://eslint.org): The popular JavaScript/TypeScript linter
+- [**Prettier**](https://prettier.io): The popular opinionated code formatter
+
+It also includes some workspace settings and recommended extensions for Visual Studio Code.
 
 ## Getting Started
 
@@ -16,9 +25,15 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Remove boilderplates
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You can remove assets inside `public` folder, settings inside `nextjs-step-boilerplate.code-workspace` file, reset [Tailwind CSS settings](https://tailwindcss.com/docs/guides/nextjs) and change code inside `app/page.tsx` and remove this NPM package:
+
+```bash
+npm r lucide-react
+# or
+bun r lucide-react
+```
 
 ## Learn More
 
@@ -28,9 +43,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
