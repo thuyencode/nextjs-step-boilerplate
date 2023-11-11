@@ -8,7 +8,7 @@ export default function Home() {
       <nav className='absolute inset-x-0 top-0 mx-auto w-full max-w-5xl items-center justify-between font-mono text-sm max-lg:px-4 md:mt-4 md:flex'>
         <Link
           className='inset-x-0 top-0 flex cursor-pointer justify-center border-b border-neutral-800 bg-zinc-800/30 bg-gradient-to-b from-inherit py-6 backdrop-blur-2xl max-md:fixed max-md:w-full md:rounded-xl md:border md:p-4 md:dark:bg-zinc-800/30'
-          href='https://github.com/thuyencode'
+          href='https://github.com/thuyencode/nextjs-step-boilerplate#readme'
           target='_blank'
         >
           Get started by&nbsp;
@@ -16,7 +16,7 @@ export default function Home() {
         </Link>
         <Link
           className='inset-x-0 bottom-0 flex cursor-pointer items-center justify-center gap-2 p-8 hover:dark:drop-shadow-[0_0_0.3rem_#ffffff70] max-md:fixed max-md:w-full md:p-0'
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
+          href='https://github.com/thuyencode/nextjs-step-boilerplate'
           target='_blank'
           rel='noopener noreferrer'
         >
